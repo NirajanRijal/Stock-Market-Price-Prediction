@@ -19,44 +19,31 @@ Is the homework Low?
 Yes: Play
 No: Study
 So, the decision tree looks like this:
-       Is Weather Sunny?
-       /          \
-    Yes            No
-   /                \
-Is Homework Low?    Study
-  /    \
-Play   Study
+     <img width="294" alt="image" src="https://github.com/NirajanRijal/Stock-Market-Price-Prediction/assets/160163175/adfa5719-d699-4420-a845-51cae08b8745">
+
 
 Bagging (Bootstrap Aggregating)
 Let’s simulate Bagging by creating multiple decision trees from random samples of the data:
 <img width="475" alt="image" src="https://github.com/NirajanRijal/Stock-Market-Price-Prediction/assets/160163175/59e68a64-63e7-429d-91d0-d2563c7589e4">
 Decision Tree:
-       Is Weather Sunny?
-       /          \
-    Yes            No
-   /                \
-Is Homework Low?    Study
-  /    \
-Play   Study
+      <img width="314" alt="image" src="https://github.com/NirajanRijal/Stock-Market-Price-Prediction/assets/160163175/22f9267d-58ad-4ed5-8457-b487723a7fef">
+
 
 <img width="465" alt="image" src="https://github.com/NirajanRijal/Stock-Market-Price-Prediction/assets/160163175/c9d17dd2-96a5-442d-99fc-c9bee5ec6c97">
 Decision Tree:
-       Is Weather Rainy?
-       /          \
-    Yes            No
- Study           Play
+       <img width="281" alt="image" src="https://github.com/NirajanRijal/Stock-Market-Price-Prediction/assets/160163175/5268671e-3524-4465-b632-4f70a0aded25">
+
 
 <img width="467" alt="image" src="https://github.com/NirajanRijal/Stock-Market-Price-Prediction/assets/160163175/32e9514b-4a70-4662-aad2-a8c9acc55a69">
 Decision Tree:
-       Is Weather Rainy?
-       /          \
-    Yes            No
- Study           Play
+      <img width="256" alt="image" src="https://github.com/NirajanRijal/Stock-Market-Price-Prediction/assets/160163175/e4123aff-b6ff-403b-85e8-e8eb5d482b0e">
+
 
 Random Forest
 Now, let's create a Random Forest by combining these decision trees. Suppose we have a new data point:
-Weather |	Homework
-Sunny 	|  Low
+
+- Weather |	Homework
+- Sunny  |      Low
 
 Each tree will make a prediction:
 
